@@ -1,0 +1,37 @@
+
+.outlinedTextField {
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 10px;
+   
+  }
+
+  .trading {
+    display: flex;
+    margin-top: 4%;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5%;
+    font-family: 'inter', sans-serif;
+    gap: 10px;
+    font-size: large;
+    transform: scale(1.2);
+  }
+
+  .trading_content {
+    display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Three columns */
+  grid-template-rows: repeat(5, auto); /* Two rows */
+  gap: 80px; /* Padding between rows and columns */
+  padding: 80px; /* Padding for the container */
+  }
+
+  /* styles.module.css */
+
+
+/* Target the CardContent inside React.Fragment */
+.MuiCardContent-root {
+  background-color: white; 
+} 
+
+
+ 

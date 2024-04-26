@@ -1,0 +1,27 @@
+.about-container {
+    padding: 25px;
+}
+
+.about-container h1 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 10px #911f1f; 
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.about-container p {
+    font-size: 2rem;
+    line-height: 1.6;
+    color: #a19696;
+    margin-bottom: 5px;
+}
+.image-container {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.owl-image {
+    max-width: 80%; 
+}

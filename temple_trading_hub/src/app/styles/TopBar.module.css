@@ -1,0 +1,72 @@
+.topBar{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    color: white;
+    height: 10rem;
+
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    background-color: #A31F37;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-weight: bold;
+    font-size: 105%;
+}
+
+.section img {
+    width: 56px;
+    height: 56px;
+}
+
+.section2 {
+    border-top: 65px solid #A31F37;
+    border-right: 65px solid transparent;
+}
+
+.topButtons {
+    margin-right: 2rem;
+    margin-left: auto;
+    font-family: 'jua', sans-serif;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.topButtons span {
+    /* fix later */
+    margin-top: 0px;
+  }
+  
+
+/* .buttonstyle {
+     font-family: 'jua', sans-serif; 
+    color: white;
+     font-size: 20px; 
+    transition: 0.2s ease-out;
+    
+}
+
+.buttonstyle:hover {
+    color: #A31F37;
+    font-size: 30px;
+    transition: all 0.2s ease;
+    background-color: transparent;
+} */
+
+.barContent{
+    max-width: 100%;
+}
+
+
+
+
+

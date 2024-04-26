@@ -1,0 +1,16 @@
+.profile {
+    display: flex;
+    flex-direction: column; /* Ensure items are stacked vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin-top: 2rem;
+  }
+
+  #info {
+    white-space: nowrap;
+    font-size: 23px;
+  }
+
+  /* #your_info{
+    margin-left: .5rem;
+  } */
